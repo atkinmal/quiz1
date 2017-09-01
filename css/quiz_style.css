@@ -6,7 +6,8 @@ header {
   margin: 10px auto;
   padding: 10px;
   background-color: aliceblue;
-  text-align: center; }
+  text-align: center;
+  border-radius: 20px; }
 
 body {
   width: 600px;
@@ -14,7 +15,8 @@ body {
   font-family: sans-serif;
   font-size: 1em;
   font-style: oblique;
-  background-color: #dadadb; }
+  background-color: #dadadb;
+  border-radius: 20px; }
 
 h1 {
   color: #58a0e0; }
@@ -29,7 +31,8 @@ h1 {
 #list {
   border: 2px solid #064277;
   border-radius: 20px;
-  background-color: aliceblue; }
+  background-color: aliceblue;
+  border-radius: 25px; }
 
 h2 {
   color: #064277; }
@@ -56,7 +59,8 @@ footer {
   border-radius: 20px;
   margin: 10px auto;
   padding: 10px;
-  background-color: aliceblue; }
+  background-color: aliceblue;
+  border-radius: 30px; }
 
 #footer {
   font-size: .75em;

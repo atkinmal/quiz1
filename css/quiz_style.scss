@@ -4,6 +4,11 @@ $basefont: sans-serif;
 $leftmargin: 50px;
 $padding: 10px;
 
+@mixin rounded ($radius: 20px){
+  border-radius: $radius;
+
+}
+
 /* Quiz styles */
 
 header {
@@ -13,6 +18,7 @@ header {
     padding: $padding;
     background-color: $bgcolor;
     text-align: center;
+    @include rounded;
 }
 
 body {
@@ -22,6 +28,7 @@ body {
     font-size: 1em;
     font-style:oblique;
     background-color: #dadadb;
+    @include rounded;
 }
 
 
@@ -41,6 +48,7 @@ h1 {
     border: 2px solid #064277;
     border-radius: 20px;
     background-color: $bgcolor;
+    @include rounded(25px);
 }
 
 h2 {
@@ -74,6 +82,7 @@ footer {
     margin: 10px auto;
     padding: $padding;
     background-color: $bgcolor;
+    @include rounded(30px);
 }
 
 #footer {
